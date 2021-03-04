@@ -1,0 +1,84 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-boxß;
+}
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-image: url(/images/image_1.jpg);
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+
+}
+h1 {
+ text-align: center;
+ font-size: 5rem;
+ padding: 1rem;
+ color: white;
+}
+.app-wrap {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+}
+header {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 50px 15px;
+}
+header input {
+ width: 100%;
+ max-width: 500px;
+ margin-top: 2rem;
+ padding: 20px 15px;
+ border: 1px solid white;
+ outline: none; /* Remove the default setting in the box  */
+ background-color: #82c0c0;
+ border-radius: 10px 10px 10px 10px;
+ color: black;
+ font-size: 16px;
+ font-weight: 300;
+ transition: .2s ease-out;
+}
+header input:focus {
+ background-color: rgba(255, 255, 255, 0.6);
+}
+main {
+ padding: 25px 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+.location .city {
+ color: white;
+ font-size: 32px;
+ font-weight: 500;
+ margin-bottom: 5px;
+}
+.location .date {
+ color: white; 
+ font-size: 16px;
+}
+.current .temp {
+ color:white;
+ font-size: 7rem;
+ font-weight: 900;
+ margin: 30px 0px;
+ text-shadow: 2px 10px rgba(0 , 0, 0, 0.6);
+}
+.current .weather {
+ color: white;
+ font-size: 4rem;
+ font-weight: 500;
+ font-style: italic;
+ margin-bottom: 15px;
+
+}
+.current .hi-low {
+ color: white;
+ font-size: 2rem;
+ font-weight: 500;
+
+}
